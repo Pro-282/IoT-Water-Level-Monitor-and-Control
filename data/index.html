@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Monitor Water Level</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" 
+</head>
+
+<body>
+    <div>
+        <h1>IOT Water Monitoring system</h1>
+        <p>Pump state: <span><strong id="pump">...</strong></span></p>
+        <p>Reserviour State: <span><strong id="reserv">%RESERVSTATE%</strong></span></p>
+        <h4>Pump switch</h4>
+        <label class="switch"><input type="checkbox" onchange="toggleCheckbox(this)" id="box" %CHECKFLAGSTATE% ><span class="slider"></span></label>
+    </div>
+    <div>
+        <!-- <img src="50off"> -->
+        <!-- <img id="imgDisp" src="%IMAGESOURCE%"> -->
+        <img id="imgDisp" src="50off">
+        <h4 style="padding-top: 10px;">Tank is <span id="full"><strong>...</strong></span> Full</h4>
+    </div>
+
+    <script src="script"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
