@@ -22,7 +22,7 @@ Accessing the controls and viewing the level of the water tank is done using a b
 ## Circuit diagram
 ![schematics](resources/Fritzing%20schematics_bb.jpg)
 
-## Library used:
+## Libraries used:
 * [WiFi](https://github.com/arduino-libraries/WiFi)
 * [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
 * [ESP 32 SPIFFS](https://github.com/espressif/arduino-esp32/tree/master/libraries/SPIFFS)
