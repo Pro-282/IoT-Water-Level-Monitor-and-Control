@@ -22,6 +22,9 @@ Accessing the controls and viewing the level of the water tank is done using a b
 ## Circuit diagram
 ![schematics](resources/Fritzing%20schematics_bb.jpg)
 
+## Water Level Indicator (50% ON)
+![illustration](data/50on.gif)
+
 ## Libraries used:
 * [WiFi](https://github.com/arduino-libraries/WiFi)
 * [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
